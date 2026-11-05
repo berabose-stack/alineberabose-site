@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Berabose: Visionary. Speaker. Author. Advocate</title>
-<meta name="description" content="bose (berabose) builds spaces where people heal, connect and organize, with women at the center. holistic care, community healing, decolonial systems and women's rights.">
+<meta name="description" content="bose (berabose) connects, organizes and creates spaces where people heal together. community healing, mental health and wellness, and gender-transformative programs rooted in ubuntu.">
 <meta property="og:title" content="Berabose: Visionary. Speaker. Author. Advocate">
-<meta property="og:description" content="i build spaces where people heal, connect and organize.">
+<meta property="og:description" content="i connect, organize and create spaces where people heal together.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Berabose">
 <meta property="og:url" content="https://alineberabose.com">
@@ -21,209 +21,21 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
-<style>
-:root{
-  --ink:#0D0C0F; --ink-soft:#3A3645; --white:#FFFFFF;
-  --orange:#F07A2C; --orange-text:#B9480C;
-  --peri:#C9B8F2; --peri-light:#E7DFFA;
-  --line:#E3DEEE; --line-dark:#2B2932;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--white);color:var(--ink);font-family:'Bricolage Grotesque',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
-a{color:inherit}
-img{display:block;max-width:100%}
-h1,h2,h3,p{margin:0}
-h1,h2,h3{letter-spacing:-.03em}
-ul{list-style:none;margin:0;padding:0}
-.wrap{max-width:1200px;margin:0 auto;padding-inline:clamp(16px,4vw,48px)}
-.section{padding-block:clamp(64px,8vw,112px)}
-.label{font-size:14px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
-.h2{font-size:clamp(34px,4.4vw,60px);line-height:1;font-weight:800}
-.head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px 24px;margin-bottom:40px}
-.head p{max-width:380px;font-size:18px;line-height:1.5;color:var(--ink-soft)}
-.btn{display:inline-block;text-decoration:none;font-weight:700;font-size:17px;padding:16px 28px;border-radius:999px;line-height:1.1;transition:transform .15s ease;border:0;cursor:pointer;font-family:inherit}
-.btn:hover{transform:translateY(-2px)}
-.btn-orange{background:var(--orange);color:var(--ink)}
-.btn-ink{background:var(--ink);color:var(--white)}
-.btn-ghost{border:1.5px solid var(--ink);padding:14.5px 26.5px}
-.ico{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-
-/* nav */
-header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 16px;padding-block:14px}
-.logo{display:flex;align-items:center;gap:10px;font-size:24px;font-weight:800;letter-spacing:-.02em;text-decoration:none}
-.logo img{width:36px;height:36px;border-radius:50%}
-.dot{color:var(--orange)}
-.navlinks{display:flex;flex-wrap:wrap;align-items:center;gap:8px 22px;font-size:16px}
-.navlinks a{text-decoration:none}
-.navlinks a:not(.btn):hover{color:var(--orange-text)}
-.navlinks .btn{padding:11px 20px;font-size:15px}
-@media (max-width:900px){.navlinks a:not(.btn){display:none}}
-
-/* hero */
-.hero-bg{background:var(--peri)}
-.hero{display:flex;flex-wrap:wrap;gap:clamp(32px,5vw,64px);align-items:center;padding-block:clamp(40px,6vw,88px)}
-.arch{flex:1 1 400px;min-width:0;aspect-ratio:3/4;max-height:620px;border-radius:300px 300px 24px 24px;overflow:hidden;background:var(--peri-light)}
-.arch img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
-.hero-text{flex:1.3 1 480px;min-width:0;display:flex;flex-direction:column;gap:26px}
-.hero h1{font-size:clamp(44px,6.4vw,96px);line-height:1;font-weight:800;letter-spacing:-.035em}
-.mark{background:var(--orange);padding:0 .14em;border-radius:.2em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.lead{max-width:520px;font-size:20px;line-height:1.5;color:var(--ink-soft)}
-.btns{display:flex;flex-wrap:wrap;gap:14px}
-
-/* my work */
-.focus{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-.tile{border-radius:24px;padding:30px;display:flex;flex-direction:column;gap:14px;min-height:260px}
-.tile h3{font-size:27px;line-height:1.1;font-weight:800;margin-top:auto}
-.tile p{font-size:16px;line-height:1.5}
-.t1{background:var(--orange)}
-.t2{background:var(--peri)}
-.t3{background:var(--ink);color:var(--white)} .t3 .ico{color:var(--orange)}
-.t4{background:var(--peri-light)}
-
-/* work with me */
-.services-bg{background:var(--peri-light)}
-.services-wrap{display:flex;flex-wrap:wrap;gap:clamp(32px,5vw,64px);align-items:center}
-.services-photo{flex:1 1 360px;min-width:0;aspect-ratio:4/5;max-height:600px;border-radius:24px;overflow:hidden}
-.services-photo img{width:100%;height:100%;object-fit:cover;object-position:78% 50%}
-.services-text{flex:1.2 1 440px;min-width:0}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
-.services li{background:var(--white);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:6px}
-.services strong{font-size:20px;font-weight:700;letter-spacing:-.01em}
-.services span{font-size:15px;line-height:1.45;color:var(--ink-soft)}
-
-/* recognition */
-.rec{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
-.rbox{border-radius:24px;padding:30px;display:flex;flex-direction:column;gap:18px}
-.rbox.awards{background:var(--orange)}
-.rbox.alongside{background:var(--ink);color:var(--white)} .rbox.alongside .label{color:var(--peri)}
-.rbox li{font-size:20px;font-weight:700;line-height:1.3;letter-spacing:-.01em}
-.rbox li small{display:block;font-size:15px;font-weight:400;letter-spacing:0;margin-top:2px;opacity:.85}
-
-/* built */
-.built{background:var(--peri)}
-.homes{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
-.home{text-decoration:none;background:var(--white);border-radius:24px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s ease}
-.home:hover{transform:translateY(-4px)}
-.home .ph{height:230px;background:var(--peri-light);overflow:hidden}
-.home .ph img{width:100%;height:100%;object-fit:cover}
-.home .body{padding:26px;display:flex;flex-direction:column;gap:8px}
-.tag{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
-.home h3{font-size:26px;font-weight:700}
-.home p{font-size:16px;line-height:1.5;color:var(--ink-soft)}
-.home .go{font-size:16px;font-weight:700;color:var(--orange-text)}
-.parent{background:var(--orange);border-radius:24px;padding:30px;display:flex;flex-direction:column;justify-content:space-between;gap:20px}
-.parent h3{font-size:32px;font-weight:800;margin-bottom:8px}
-.parent p{font-size:16px;line-height:1.5}
-.cofounded{margin-top:48px}
-.cofounded .label{margin-bottom:18px}
-.past{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
-.past li{background:var(--white);border-radius:20px;padding:24px;display:flex;flex-direction:column;gap:8px}
-.past strong{font-size:21px;font-weight:700;letter-spacing:-.01em}
-.past span{font-size:15px;line-height:1.45;color:var(--ink-soft)}
-
-/* track record */
-.track{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
-.tbox{border:1.5px solid var(--line);border-radius:22px;padding:26px;display:flex;flex-direction:column;gap:14px}
-.tbox ul{display:flex;flex-direction:column;gap:10px}
-.tbox li{font-size:18px;font-weight:600;line-height:1.3}
-.tbox li small{display:block;font-size:14px;font-weight:400;color:var(--ink-soft);margin-top:2px}
-
-/* press */
-.press{background:var(--orange)}
-.press .head p{color:var(--ink)}
-.marquee{overflow:hidden;padding-block:4px 0;mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
-.mtrack{display:flex;gap:16px;width:max-content;animation:slide 60s linear infinite}
-.marquee:hover .mtrack,.marquee:focus-within .mtrack{animation-play-state:paused}
-@keyframes slide{to{transform:translateX(calc(-50% - 8px))}}
-@media (prefers-reduced-motion:reduce){.mtrack{animation:none}.marquee{overflow-x:auto;mask-image:none}}
-.pcard{flex:0 0 auto;width:320px;min-height:230px;background:var(--white);border-radius:20px;padding:24px;display:flex;flex-direction:column;gap:10px;text-decoration:none;transition:transform .2s ease}
-a.pcard:hover{transform:translateY(-4px)}
-.plogo{position:relative;overflow:hidden;width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;letter-spacing:-.02em;color:var(--white);background:var(--ink)}
-.plogo img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:8px;background:var(--white);border:1.5px solid var(--line);border-radius:14px}
-.pcard .outlet{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange-text)}
-.pcard .title{font-size:20px;font-weight:700;line-height:1.25;letter-spacing:-.01em}
-
-/* speaking */
-.dark{background:var(--ink);color:var(--white)}
-.dark .label{color:var(--peri)}
-.dark .head p{color:#D9D6E2}
-.regions{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
-.region{border-radius:24px;padding:30px;display:flex;flex-direction:column;gap:18px}
-.region .rname{font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
-.region ul{display:flex;flex-wrap:wrap;gap:4px 16px}
-.region li{font-size:clamp(26px,2.6vw,36px);font-weight:800;letter-spacing:-.03em;line-height:1.15}
-.r1{background:var(--orange);color:var(--ink)}
-.r2{background:var(--peri);color:var(--ink)}
-.r3{background:var(--white);color:var(--ink)}
-.speak-cta{margin-top:40px}
-
-/* album */
-.album{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
-.album figure{margin:0;border-radius:22px;overflow:hidden;aspect-ratio:4/3;background:var(--peri-light)}
-.album img{width:100%;height:100%;object-fit:cover}
-
-/* story */
-.story-bg{background:var(--peri)}
-.story{display:flex;flex-wrap:wrap;gap:56px;align-items:flex-start}
-.story .photo{flex:1 1 320px;min-width:0;aspect-ratio:4/5;max-height:560px;border-radius:24px;overflow:hidden;background:var(--peri-light)}
-.story .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
-.story-text{flex:999 1 480px;min-width:0;display:flex;flex-direction:column;gap:22px}
-.story-text h2{font-size:clamp(40px,5vw,72px);line-height:1;font-weight:800}
-.story-text p{font-size:clamp(19px,1.6vw,22px);line-height:1.55}
-.skills{display:flex;flex-wrap:wrap;gap:10px}
-.skills li{font-size:15px;font-weight:600;padding:10px 16px;border-radius:999px;background:var(--white)}
-.edu{display:flex;flex-direction:column}
-.edu li{border-top:1.5px solid rgba(13,12,15,.15);padding:14px 0;display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 24px}
-.edu strong{font-size:17px;font-weight:700}
-.edu span{font-size:15px;font-weight:600;color:var(--ink-soft)}
-
-/* follow */
-.follow-bg{background:var(--orange)}
-.follow{display:flex;flex-wrap:wrap;gap:56px}
-.follow-left{flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:24px}
-.follow-left h2{font-size:clamp(48px,6vw,88px);line-height:.95;font-weight:800;letter-spacing:-.035em}
-.socials{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
-.socials a{display:flex;flex-direction:column;gap:2px;background:var(--white);border-radius:16px;padding:16px 18px;text-decoration:none;min-height:44px}
-.socials b{font-size:17px}
-.socials span{font-size:14px;color:var(--ink-soft);overflow-wrap:anywhere}
-.fund{display:flex;flex-wrap:wrap;align-items:center;gap:14px;background:var(--ink);color:var(--white);border-radius:20px;padding:20px 22px}
-.fund p{flex:1 1 200px;font-size:17px;line-height:1.4}
-form{flex:1 1 440px;min-width:0;display:flex;flex-direction:column;gap:18px}
-.form-title{font-size:24px;font-weight:800;letter-spacing:-.02em}
-.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
-label{display:flex;flex-direction:column;gap:8px;font-size:15px;font-weight:600}
-input,textarea{font:inherit;font-weight:400;background:var(--white);border:1.5px solid var(--white);border-radius:12px;padding:14px 16px;color:var(--ink);font-size:17px;min-height:50px;width:100%}
-input:focus,textarea:focus{outline:2px solid var(--ink);outline-offset:1px}
-textarea{resize:vertical}
-fieldset{border:0;margin:0;padding:0}
-legend{font-size:15px;font-weight:600;padding:0;margin-bottom:10px}
-.pills{display:flex;flex-wrap:wrap;gap:10px}
-.pill{font:inherit;font-size:15px;padding:12px 18px;min-height:44px;border-radius:999px;cursor:pointer;background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
-.pill[aria-pressed="true"]{background:var(--ink);color:var(--white);font-weight:700}
-.hidden{display:none}
-
-/* footer */
-footer{background:var(--ink);color:var(--white)}
-footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:28px;padding-block:44px}
-footer .logo{font-size:28px}
-footer .logo img{width:52px;height:52px}
-footer blockquote{margin:0;max-width:560px;font-size:clamp(18px,1.8vw,22px);line-height:1.45;color:#D9D6E2}
-footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;color:var(--peri);font-size:15px}
-</style>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
 <header>
   <nav class="wrap" aria-label="main">
-    <a href="#top" class="logo"><img src="/favicon-192.png" alt="">berabose<span class="dot">.</span></a>
+    <a href="/" class="logo"><img src="/favicon-192.png" alt="">berabose<span class="dot">.</span></a>
     <div class="navlinks">
       <a href="#work">my work</a>
       <a href="#built">what i've built</a>
       <a href="#recognition">recognition</a>
       <a href="#press">press</a>
-      <a href="#speaking">speaking</a>
+      <a href="/speaking.html">speaking</a>
+      <a href="/writing.html">writing</a>
       <a href="#story">my story</a>
       <a href="#follow" class="btn btn-ink">follow me</a>
     </div>
@@ -236,11 +48,11 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
     <div class="arch"><img src="images/hero.jpg" alt="bose in a yellow blazer at a wooden table" fetchpriority="high"></div>
     <div class="hero-text">
       <p class="label">visionary · speaker · author · advocate</p>
-      <h1>i build spaces where people <span class="mark">heal</span>, connect and organize.</h1>
-      <p class="lead">holistic care, community healing and systems rooted in ubuntu. with women at the center.</p>
+      <h1>i <span class="mark">connect</span>, <span class="mark">organize</span> and create spaces where people <span class="mark">heal</span> together.</h1>
+      <p class="lead">community healing spaces, mental health and wellness, and gender-transformative programs, rooted in ubuntu and decolonial practice.</p>
       <div class="btns">
         <a href="#services" class="btn btn-ink">work with me</a>
-        <a href="#speaking" class="btn btn-ghost">invite me to speak</a>
+        <a href="/speaking.html" class="btn btn-orange">invite me to speak</a>
       </div>
     </div>
   </div>
@@ -254,23 +66,23 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
   <div class="focus">
     <article class="tile t1">
       <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1 3 4 5 4 9a4 4 0 0 1-8 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 0-8z"/><path d="M5 21h14"/></svg>
-      <h3>holistic care and community healing</h3>
-      <p>from therapy to circle by the fire. we heal together, not in isolation.</p>
+      <h3>mental health and community healing</h3>
+      <p>from therapy to safe circles by the fire.</p>
     </article>
     <article class="tile t2">
-      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21v-9"/><path d="M12 12c0-4-3-6-7-6 0 4 3 6 7 6z"/><path d="M12 10c0-3 2-5 6-5 0 3-2 5-6 5z"/></svg>
-      <h3>decolonial and regenerative systems</h3>
-      <p>reimagining care through ubuntu.</p>
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+      <h3>women's rites of passage</h3>
+      <p>from menstruation to menopause, breaking stigma through stories.</p>
     </article>
     <article class="tile t3">
       <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1z"/><path d="M15 9a4 4 0 0 1 0 6"/><path d="M18 6a8 8 0 0 1 0 12"/></svg>
       <h3>women's rights and advocacy</h3>
-      <p>feminist organizing, SRHR and menstrual rights.</p>
+      <p>feminist organizing, campaigns, SRHR and legal protections.</p>
     </article>
     <article class="tile t4">
-      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
-      <h3>women's rites of passage</h3>
-      <p>menstruation, maternal health, postpartum, menopause. information, support and our stories.</p>
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21v-9"/><path d="M12 12c0-4-3-6-7-6 0 4 3 6 7 6z"/><path d="M12 10c0-3 2-5 6-5 0 3-2 5-6 5z"/></svg>
+      <h3>decolonial and regenerative</h3>
+      <p>reimagining how we care for ourselves and the earth, through resistance.</p>
     </article>
   </div>
 </section>
@@ -283,11 +95,10 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
         <h2 class="h2">work with me</h2>
       </div>
       <ul class="services">
-        <li><strong>workshops and trainings</strong><span>SRHR, mental health and wellness.</span></li>
-        <li><strong>holding space</strong><span>circles, retreats and circle by the fire. 10 to 100+ people.</span></li>
+        <li><strong>workshops and trainings</strong><span>SRHR, mental health, wellness and gender.</span></li>
+        <li><strong>holding space</strong><span>circles and retreats, from 10 to 100+ people.</span></li>
         <li><strong>feminist and women's rights consulting</strong><span>strategy, organizing and care for activists.</span></li>
-        <li><strong>wellness for organizations</strong><span>care built into how teams work.</span></li>
-        <li><strong>speaking</strong><span>keynotes, panels and moderation.</span></li>
+        <li><strong>speaking</strong><span>keynotes, panels and moderation. <a href="/speaking.html">see rates →</a></span></li>
       </ul>
     </div>
   </div>
@@ -309,16 +120,24 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
       </ul>
     </div>
     <div class="rbox alongside">
-      <p class="label">on stages and in rooms with</p>
+      <p class="label">stages</p>
       <ul>
-        <li>president bill clinton and president michael d. higgins<small>concern resurge, dublin castle, 2018</small></li>
-        <li>bono<small>U2</small></li>
-        <li>mary robinson<small>former president of ireland</small></li>
-        <li>president barack obama<small>people to people youth summit, kansas city</small></li>
+        <li>concern resurge<small>dublin castle, 2018</small></li>
         <li>women deliver</li>
-        <li>international conference on family planning (ICFP)</li>
+        <li>international conference on family planning<small>ICFP</small></li>
+        <li>people to people youth summit<small>kansas city</small></li>
+        <li>global youth peace summit<small>austin</small></li>
       </ul>
     </div>
+  </div>
+  <div class="stage-names">
+    <p class="label">shared the stage with</p>
+    <span>president bill clinton</span>
+    <span>president michael d. higgins</span>
+    <span>president barack obama</span>
+    <span>mary robinson <small>former president of ireland</small></span>
+    <span>amina j. mohammed <small>deputy secretary-general, united nations</small></span>
+    <span>bono <small>U2</small></span>
   </div>
 </section>
 
@@ -363,10 +182,10 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
     <div class="cofounded">
       <p class="label">co-founded</p>
       <ul class="past">
-        <li><strong>african dream movement</strong><span>kenya, usa, south africa. africa emerge, youth summits, moon and sun circles.</span></li>
-        <li><strong>breaking silences</strong><span>rwanda's first podcast breaking stigma on heavy topics, with dominique alonga.</span></li>
-        <li><strong>iMatter initiative</strong><span>period poverty, girls' SRHR education, tax-free pads and menstrual rights.</span></li>
-        <li><strong>urumuri therapy fund</strong><span>sponsoring counseling for vulnerable groups and activists.</span></li>
+        <li><strong>african dream movement</strong><span>kenya, usa, south africa. africa emerge, youth summits, moon and sun circles. with naomi mwangi (kenya) and justice sambo (south africa).</span></li>
+        <li><strong>breaking silences</strong><span>rwanda's first podcast breaking stigma on heavy topics. with author and entrepreneur dominique alonga.</span></li>
+        <li><strong>iMatter initiative</strong><span>period poverty, girls' SRHR education, tax-free pads and menstrual rights. with period activist divine ingabire.</span></li>
+        <li><strong>urumuri therapy fund</strong><span>sponsoring counseling for vulnerable groups and activists. with feminist activists peace, judith and yvette.</span></li>
       </ul>
     </div>
   </div>
@@ -375,12 +194,12 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
 <section class="wrap section" aria-label="track record">
   <div class="head">
     <h2 class="h2">track record</h2>
+    <p><a href="/writing.html" class="back">books and writing →</a></p>
   </div>
   <div class="track">
     <div class="tbox">
       <p class="label">worked with</p>
       <ul>
-        <li>rwanda feminist forum</li>
         <li>goethe-institut</li>
         <li>FEMNET and nawi collective</li>
         <li>african health tech summit</li>
@@ -393,7 +212,7 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
       <p class="label">programs and summits</p>
       <ul>
         <li>global youth peace summit<small>austin</small></li>
-        <li>one village / emerging visionaries</li>
+        <li>one village / emerging visionaries<small>hawai'i</small></li>
         <li>youth peace initiative<small>israeli and palestinian youth, the hague</small></li>
         <li>international court of justice<small>volunteer</small></li>
       </ul>
@@ -401,22 +220,16 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
     <div class="tbox">
       <p class="label">startup programs</p>
       <ul>
-        <li>femtech</li>
+        <li>femtech UK</li>
         <li>ALX</li>
         <li>jasiri</li>
-        <li>norrsken women</li>
+        <li>women in business<small>norrsken</small></li>
+        <li>norse women in business initiative</li>
       </ul>
-    </div>
-    <div class="tbox">
-      <p class="label">member of</p>
+      <p class="label" style="margin-top:10px">member of</p>
       <ul>
         <li>rwanda women alliance</li>
         <li>rwanda feminist forum</li>
-      </ul>
-      <p class="label" style="margin-top:10px">books and writing</p>
-      <ul>
-        <li>unsung<small>book, self-published, 2019</small></li>
-        <li><a href="https://substack.com/@berabosewrites" target="_blank" rel="noopener" style="text-decoration:none">substack</a><small>essays, @berabosewrites</small></li>
       </ul>
     </div>
   </div>
@@ -432,6 +245,9 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
     <div class="mtrack" id="mtrack">
       <a class="pcard" href="https://www.newtimes.co.rw/article/4372/news/technology/local-innovator-on-safe-telehealth-platform-for-women" target="_blank" rel="noopener">
         <span class="plogo" aria-hidden="true"><img src="https://www.google.com/s2/favicons?domain=newtimes.co.rw&amp;sz=128" alt="" onerror="this.remove()">NT</span><span class="outlet">the new times</span><span class="title">local innovator on a "safe" telehealth platform for women</span>
+      </a>
+      <a class="pcard" href="https://youtu.be/_fyD3FdzCF8" target="_blank" rel="noopener">
+        <span class="plogo" aria-hidden="true"><img src="https://www.google.com/s2/favicons?domain=rba.co.rw&amp;sz=128" alt="" onerror="this.remove()">RBA</span><span class="outlet">RBA</span><span class="title">interview on rwanda broadcasting agency</span>
       </a>
       <a class="pcard" href="https://resurge2018.com/" target="_blank" rel="noopener">
         <span class="plogo" aria-hidden="true" style="background:var(--orange-text)"><img src="https://www.google.com/s2/favicons?domain=concern.net&amp;sz=128" alt="" onerror="this.remove()">CR</span><span class="outlet">concern resurge, dublin</span><span class="title">alongside president bill clinton and president michael d. higgins</span>
@@ -461,24 +277,15 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
 <section id="speaking" class="dark">
   <div class="wrap section">
     <div class="head">
-      <h2 class="h2">speaking</h2>
-      <p>where the work has taken me.</p>
+      <h2 class="h2">where the work has taken me</h2>
+      <p>tap a pin to see the city.</p>
     </div>
-    <div class="regions">
-      <div class="region r1">
-        <span class="rname">africa</span>
-        <ul><li>kigali</li><li>nairobi</li><li>kampala</li><li>maputo</li><li>joburg</li><li>lagos</li><li>addis</li><li>tanga</li></ul>
-      </div>
-      <div class="region r2">
-        <span class="rname">europe</span>
-        <ul><li>dublin</li><li>london</li><li>reading</li><li>cambridge</li><li>milan</li><li>bologna</li><li>amsterdam</li><li>the hague</li><li>copenhagen</li></ul>
-      </div>
-      <div class="region r3">
-        <span class="rname">usa</span>
-        <ul><li>new york</li><li>austin</li><li>reno</li><li>kansas city</li><li>LA</li></ul>
-      </div>
+    <div id="map" role="img" aria-label="world map with pins on the cities where bose has worked and spoken"></div>
+    <div class="city-chips" id="chips" aria-label="cities"></div>
+    <div class="speak-band">
+      <p>looking to inspire your audience?</p>
+      <a href="/speaking.html" class="btn btn-ink">invite me to speak</a>
     </div>
-    <div class="speak-cta"><a href="#follow" class="btn btn-orange" data-topic="speaking">invite me to speak</a></div>
   </div>
 </section>
 
@@ -537,10 +344,6 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
         <a href="https://substack.com/@berabosewrites" target="_blank" rel="noopener"><b>substack</b><span>@berabosewrites</span></a>
         <a href="mailto:alineberabose@gmail.com"><b>email</b><span>alineberabose@gmail.com</span></a>
       </div>
-      <div class="fund">
-        <p>help us keep healing open to everyone. support the circle.</p>
-        <a class="btn btn-orange" href="https://www.gofundme.com/f/the-circle-support-healing-for-everyone" target="_blank" rel="noopener">donate</a>
-      </div>
     </div>
     <form name="contact" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="company-website">
       <p class="form-title">or send a message</p>
@@ -571,12 +374,14 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
 
 <footer>
   <div class="wrap">
-    <a href="#top" class="logo"><img src="/favicon-192.png" alt="">berabose<span class="dot">.</span></a>
+    <a href="/" class="logo"><img src="/favicon-192.png" alt="">berabose<span class="dot">.</span></a>
     <blockquote>"you have to act as if it were possible to radically transform the world. and you have to do it all the time."<cite>angela davis</cite></blockquote>
   </div>
 </footer>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
+  // press bar loop
   var track = document.getElementById('mtrack');
   Array.prototype.slice.call(track.children).forEach(function (el) {
     var c = el.cloneNode(true);
@@ -584,6 +389,8 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
     if (c.tagName === 'A') c.setAttribute('tabindex', '-1');
     track.appendChild(c);
   });
+
+  // contact topic pills
   var pills = document.querySelectorAll('#pills .pill');
   var topic = document.getElementById('topic');
   function pick(p) {
@@ -598,6 +405,31 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
       pills.forEach(function (q) { if (q.textContent === t) pick(q); });
     });
   });
+
+  // map of cities
+  var cities = [
+    ['kigali',-1.9441,30.0619],['nairobi',-1.2921,36.8219],['kampala',0.3476,32.5825],['maputo',-25.9692,32.5732],
+    ['joburg',-26.2041,28.0473],['lagos',6.5244,3.3792],['addis ababa',9.03,38.74],['tanga',-5.0689,39.0988],
+    ['dublin',53.3498,-6.2603],['london',51.5072,-0.1276],['reading',51.4543,-0.9781],['cambridge',52.2053,0.1218],
+    ['milan',45.4642,9.19],['bologna',44.4949,11.3426],['amsterdam',52.3676,4.9041],['the hague',52.0705,4.3007],
+    ['copenhagen',55.6761,12.5683],['new york',40.7128,-74.006],['austin',30.2672,-97.7431],['reno',39.5296,-119.8138],
+    ['kansas city',39.0997,-94.5786],['LA',34.0522,-118.2437],["hawai'i",21.3069,-157.8583]
+  ];
+  var chips = document.getElementById('chips');
+  cities.forEach(function (c) { var s = document.createElement('span'); s.textContent = c[0]; chips.appendChild(s); });
+  if (window.L) {
+    var map = L.map('map', { scrollWheelZoom: false, worldCopyJump: true, zoomSnap: 0.25 });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap contributors &copy; CARTO', subdomains: 'abcd', maxZoom: 10
+    }).addTo(map);
+    var icon = L.divIcon({ className: '', html: '<div class="pin"></div>', iconSize: [16, 16], iconAnchor: [8, 8] });
+    var markers = cities.map(function (c) {
+      return L.marker([c[1], c[2]], { icon: icon, title: c[0] })
+        .bindTooltip(c[0], { className: 'city', direction: 'top', offset: [0, -10] })
+        .addTo(map);
+    });
+    map.fitBounds(L.featureGroup(markers).getBounds(), { padding: [30, 30] });
+  }
 </script>
 </body>
 </html>
