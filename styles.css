@@ -264,3 +264,5 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
 .album figure,.stage-photos figure{position:relative}
 .album figcaption,.stage-photos figcaption{position:absolute;left:12px;bottom:12px;right:12px;width:fit-content;max-width:calc(100% - 24px);background:rgba(13,12,15,.82);color:#fff;font-size:14px;font-weight:600;padding:7px 12px;border-radius:999px}
 .rbox ul{display:flex;flex-direction:column;gap:12px}
+
+.album.collapsed figure:nth-child(n+9){display:none}
