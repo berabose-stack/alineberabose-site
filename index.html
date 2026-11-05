@@ -10,6 +10,8 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Berabose">
 <meta property="og:url" content="https://alineberabose.com">
+<meta property="og:image" content="https://alineberabose.com/images/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#C9B8F2">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
@@ -138,7 +140,8 @@ nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between
 @media (prefers-reduced-motion:reduce){.mtrack{animation:none}.marquee{overflow-x:auto;mask-image:none}}
 .pcard{flex:0 0 auto;width:320px;min-height:230px;background:var(--white);border-radius:20px;padding:24px;display:flex;flex-direction:column;gap:10px;text-decoration:none;transition:transform .2s ease}
 a.pcard:hover{transform:translateY(-4px)}
-.plogo{width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;letter-spacing:-.02em;color:var(--white);background:var(--ink)}
+.plogo{position:relative;overflow:hidden;width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;letter-spacing:-.02em;color:var(--white);background:var(--ink)}
+.plogo img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:8px;background:var(--white);border:1.5px solid var(--line);border-radius:14px}
 .pcard .outlet{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange-text)}
 .pcard .title{font-size:20px;font-weight:700;line-height:1.25;letter-spacing:-.01em}
 
@@ -353,6 +356,10 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
         <a href="#follow" class="btn btn-ink" style="align-self:flex-start" data-topic="partnership">partner with us</a>
       </div>
     </div>
+    <div class="fund" style="margin-top:24px">
+      <p>the circle is growing. help us keep healing open to everyone.</p>
+      <a class="btn btn-orange" href="https://www.gofundme.com/f/the-circle-support-healing-for-everyone" target="_blank" rel="noopener">support the circle</a>
+    </div>
     <div class="cofounded">
       <p class="label">co-founded</p>
       <ul class="past">
@@ -408,8 +415,8 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
       </ul>
       <p class="label" style="margin-top:10px">books and writing</p>
       <ul>
-        <li>unsung<small>book</small></li>
-        <li>substack<small>essays</small></li>
+        <li>unsung<small>book, self-published, 2019</small></li>
+        <li><a href="https://substack.com/@berabosewrites" target="_blank" rel="noopener" style="text-decoration:none">substack</a><small>essays, @berabosewrites</small></li>
       </ul>
     </div>
   </div>
@@ -424,25 +431,25 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
   <div class="marquee" style="padding-bottom:clamp(64px,8vw,112px)">
     <div class="mtrack" id="mtrack">
       <a class="pcard" href="https://www.newtimes.co.rw/article/4372/news/technology/local-innovator-on-safe-telehealth-platform-for-women" target="_blank" rel="noopener">
-        <span class="plogo" aria-hidden="true">NT</span><span class="outlet">the new times</span><span class="title">local innovator on a "safe" telehealth platform for women</span>
+        <span class="plogo" aria-hidden="true"><img src="https://www.google.com/s2/favicons?domain=newtimes.co.rw&amp;sz=128" alt="" onerror="this.remove()">NT</span><span class="outlet">the new times</span><span class="title">local innovator on a "safe" telehealth platform for women</span>
       </a>
       <a class="pcard" href="https://resurge2018.com/" target="_blank" rel="noopener">
-        <span class="plogo" aria-hidden="true" style="background:var(--orange-text)">CR</span><span class="outlet">concern resurge, dublin</span><span class="title">alongside president bill clinton and president michael d. higgins</span>
+        <span class="plogo" aria-hidden="true" style="background:var(--orange-text)"><img src="https://www.google.com/s2/favicons?domain=concern.net&amp;sz=128" alt="" onerror="this.remove()">CR</span><span class="outlet">concern resurge, dublin</span><span class="title">alongside president bill clinton and president michael d. higgins</span>
       </a>
       <a class="pcard" href="https://www.bbc.com/gahuza/51127089" target="_blank" rel="noopener">
-        <span class="plogo" aria-hidden="true">BBC</span><span class="outlet">bbc gahuza</span><span class="title">tackling women's health stigma</span>
+        <span class="plogo" aria-hidden="true"><img src="https://www.google.com/s2/favicons?domain=bbc.com&amp;sz=128" alt="" onerror="this.remove()">BBC</span><span class="outlet">bbc gahuza</span><span class="title">tackling women's health stigma</span>
       </a>
       <a class="pcard" href="https://youtu.be/A6sbR2oEbHI" target="_blank" rel="noopener">
-        <span class="plogo" aria-hidden="true" style="background:#5B47A8">R30</span><span class="outlet">rwanda at 30</span><span class="title">the post-genocide generation, 30 years on</span>
+        <span class="plogo" aria-hidden="true" style="background:#5B47A8"><img src="https://www.google.com/s2/favicons?domain=youtube.com&amp;sz=128" alt="" onerror="this.remove()">R30</span><span class="outlet">rwanda at 30</span><span class="title">the post-genocide generation, 30 years on</span>
       </a>
       <a class="pcard" href="https://www.concern.net/news/im-proud-be-part-story-lifetime-progress-post-genocide-generation-rwanda" target="_blank" rel="noopener">
-        <span class="plogo" aria-hidden="true" style="background:var(--orange-text)">CW</span><span class="outlet">concern worldwide</span><span class="title">"i'm proud to be part of the story"</span>
+        <span class="plogo" aria-hidden="true" style="background:var(--orange-text)"><img src="https://www.google.com/s2/favicons?domain=concern.net&amp;sz=128" alt="" onerror="this.remove()">CW</span><span class="outlet">concern worldwide</span><span class="title">"i'm proud to be part of the story"</span>
       </a>
       <a class="pcard" href="https://www.wearetech.africa/en/fils-uk/tech-stars/rwanda-berabose-aline-joyce-offers-online-consultation-and-wellness-services-to-women" target="_blank" rel="noopener">
-        <span class="plogo" aria-hidden="true">WT</span><span class="outlet">we are tech africa</span><span class="title">on building femtech for women's wellness</span>
+        <span class="plogo" aria-hidden="true"><img src="https://www.google.com/s2/favicons?domain=wearetech.africa&amp;sz=128" alt="" onerror="this.remove()">WT</span><span class="outlet">we are tech africa</span><span class="title">on building femtech for women's wellness</span>
       </a>
       <a class="pcard" href="https://lnkd.in/p/dTC7TTSR" target="_blank" rel="noopener">
-        <span class="plogo" aria-hidden="true" style="background:#5B47A8">N</span><span class="outlet">norrsken</span><span class="title">featured by norrsken</span>
+        <span class="plogo" aria-hidden="true" style="background:#5B47A8"><img src="https://www.google.com/s2/favicons?domain=norrsken.org&amp;sz=128" alt="" onerror="this.remove()">N</span><span class="outlet">norrsken</span><span class="title">featured by norrsken</span>
       </a>
       <div class="pcard">
         <span class="plogo" aria-hidden="true" style="background:var(--orange-text)">H</span><span class="outlet">herstory</span><span class="title">rwanda women changemakers</span>
@@ -525,7 +532,14 @@ footer cite{display:block;margin-top:10px;font-style:normal;font-weight:700;colo
       <div class="socials">
         <a href="https://www.instagram.com/berabose__/" target="_blank" rel="noopener"><b>instagram</b><span>@berabose__</span></a>
         <a href="https://www.linkedin.com/in/berabose/" target="_blank" rel="noopener"><b>linkedin</b><span>berabose</span></a>
+        <a href="https://x.com/berabose_" target="_blank" rel="noopener"><b>X</b><span>@berabose_</span></a>
+        <a href="https://www.tiktok.com/@berabose" target="_blank" rel="noopener"><b>tiktok</b><span>@berabose</span></a>
+        <a href="https://substack.com/@berabosewrites" target="_blank" rel="noopener"><b>substack</b><span>@berabosewrites</span></a>
         <a href="mailto:alineberabose@gmail.com"><b>email</b><span>alineberabose@gmail.com</span></a>
+      </div>
+      <div class="fund">
+        <p>help us keep healing open to everyone. support the circle.</p>
+        <a class="btn btn-orange" href="https://www.gofundme.com/f/the-circle-support-healing-for-everyone" target="_blank" rel="noopener">donate</a>
       </div>
     </div>
     <form name="contact" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="company-website">
